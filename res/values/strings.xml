@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Trabalho Sistemas Embebidos</string>
+    <!-- Strings for menu options (May not use all): -->
+    <string name="action_settings">Settings</string>
+    <string name="route_options">Route Options</string>
+    <string name="steps_directions">List of steps with directions</string>
+    <string name="route_map">Map with directions</string>
+    <string name="about">About the Application</string>
+    <string name="ok">OK</string>
+
+    <!-- Strings for the main activity: -->
+    <string name="location_prompt">You are located at the following GPS coordenates:</string>
+    <string name="longitude_prompt">Longitude:</string>
+    <string name="my_longitude_value">Unavailable</string>
+    <string name="latitude_prompt">Latitude:</string>
+    <string name="my_latitude_value">Unavailable</string>
+    <string name="address_prompt">Address:</string>
+    <string name="my_current_address1">Unavailable</string>
+    <string name="my_current_address2">Unavailable</string>
+    <string name="my_current_address3">Unavailable</string>
+    <string name="insert_prompt">Please insert destination and travel options:</string>
+    <string name="travel_mode_prompt">Choose a travelling mode:</string>
+    <string name="destination_address_hint">Insert destination Address</string>
+    <string name="departure_arrival_optional_prompt">Please select departure and arrival date and time (Optional):</string>
+    <string name="departure_prompt">Include Departure:</string>
+    <string name="arrival_prompt">Include arrival:</string>
+    <string name="avoid_tolls_checkbox_prompt">Avoid tolls</string>
+    <string name="avoid_highways_checkbox_prompt">Avoid highways</string>
+    <string name="metric_system_prompt">Choose a on of the following metric systems:</string>
+    <string name="submit_button">Submit</string>
+    <string name="clear_button">Clear</string>
+
+    <!-- String for the List Activity -->
+    <string name="moment_prompt">One moment please&#8230;</string>
+    <string name="from">From:</string>
+    <string name="to">To:</string>
+    <string name="unavailable">Unavailable</string>
+    <string name="directions_list_title">Directions list:</string>
+    <string name="distance">Distance:</string>
+    <string name="duration">Duration:</string>
+
+    <string-array name="travel_mode_array">
+        <item>Driving</item>
+        <item>Walking</item>
+        <item>Bicycling</item>
+        <item>Transit (where available)</item>
+    </string-array>
+    <string-array name="metric_system_array">
+        <item>Metric</item>
+        <item>Imperial</item>
+    </string-array>
+
+    <!-- Map Strings -->
+    <string name="map_activity_Title">Directions on the map:</string>
+    <string name="title_activity_map">Map Activity</string>
+    <string name="title_activity_directions_list">Directions List Activity</string>
+
+</resources>
